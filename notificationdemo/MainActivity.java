@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
 
         // for accept action button
         Intent acceptIntent = new Intent(this,AcceptReciever.class);
-        acceptIntent.putExtra("Send","this is notification");
+        acceptIntent.putExtra("Toast","this is notification");
         PendingIntent actionPendingIntent = PendingIntent.getBroadcast(this,0,acceptIntent,0);
 
 
